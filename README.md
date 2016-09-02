@@ -60,7 +60,10 @@ On OpenBSD:
 On openSUSE:
 
      sudo zypper in lua-devel libconfig-devel readline-devel libevent-devel libjansson-devel python-devel libopenssl-devel
+     
+On Centos:
 
+     yum install readline-devel libconfig-devel openssl-devel lua lua-devel libevent libevent-devel jansson-devel python-devel
 Then,
 
      ./configure
